@@ -1,0 +1,270 @@
+@font-face {
+  font-family: Vogue;
+  src: url(Vogue.ttf);
+}
+@font-face {
+  font-family: Forum-RdrM;
+  src: url(Forum-RdrM.ttf);
+}
+h1 {
+  font-family: Yellowed-Light;
+}
+h2 {
+  font-family: Vogue;
+  margin-top: 30px;
+}
+h3 {
+  font-family: Vogue;
+  padding: 24px;
+  text-align: center;
+}
+p {
+  font-family: Forum-RdrM;
+}
+
+.textYellow {
+  font-family: Yellowed-Light;
+}
+.textForum {
+  font-family: Forum-RdrM;
+}
+body {
+  background-image: url("/im");
+  opacity;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #f3f0f3eb !important;
+  
+}
+.navLinksIndex
+{background-color:
+}
+
+/* ---------------------------------------------------Header */
+
+.tituloNavegacion {
+  color: #dfd7cf;
+  font-size: xxx-large;
+}
+/* ---------------------------------------------------Main */
+/* Seccion 1 */
+
+/* Seccion 2 */
+.tituloSeccion2 {
+  width: 270px;
+  margin-top: 5px;
+
+}
+
+.seccion2 {
+  background-color: 
+}
+
+.card-text {
+  color: ;
+  font-family: Forum;
+}
+
+/* Footer */
+.footer {
+  background-image: url("/img/Bg-footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+  /* Deja el fondo estatico */
+  height: 900px;
+}
+.footer--contImagen {
+  background-color: #dfd7cf;
+}
+
+/* ----------------------------------------- MEDIA QUERY */
+ 
+/* Mas chico*/
+@media (max-width: 743px) {
+  /* Header */
+  .headerMobile {
+    background-image: url("/img/bcNav.jpeg");
+    height: 210px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Yellowed-Light;
+    
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    font-family: 'Vogue';
+  }
+  .seccion2Mobile { 
+    display: block;}
+
+  .headerDeskTablet {
+    display: none;
+  }
+  .headerDeskTablet-Historia {
+    display: none;
+  }
+  .tituloNavegacion {
+    display: none;
+  }
+  .NavDeskTablet {
+    display: none;
+  }
+  .NavDeskTablet {
+    display: none;
+    background-color: rgba(255, 0, 0, 0);
+  }
+  .containerNoticias {
+    flex-direction: column-reverse !important;
+   
+  }
+
+  img.imgseccion1 {
+    width: 390px;
+    height: 500px;}
+
+  img.imgseccion1descubrir {
+      width: 390px;
+      height: 300px;
+  }
+  
+.seccion2 {
+  display: none;
+}
+  
+  .ttituloSeccion2 {
+    font-size: 15px;
+    transform: scale(1.3);
+  }
+  .seccion3Contenedor1 {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .seccion3Contenedor2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imgseccion3 {
+    width: 350px;
+    height: 195px;
+  }
+}
+/* Footer */
+
+
+ /* Mas grande */
+@media (min-width: 744px) {
+
+  .headerDeskTablet {
+    background-image: url("/img/Bg-arbol.jpeg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .headerHistoriaDeskTablet {
+    background-image: url("/img/bailetp3.jpeg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .headerRepartoDeskTablet {
+    background-image: url("/img/Reparto/banner.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .headerMobile {
+    display: none;
+    background-color: rgba(255, 0, 0, 0);
+  }
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    font-family: 'Vogue';
+  }
+
+  .seccion2Mobile {
+    display: none;
+  }
+  .transition {
+
+    width: 0px;
+    height: 100px;
+    background: #f92672;
+    transition: width 2s, height 2s, margin 2s;
+    margin: auto 0;
+}
+.transition:hover{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+  /* Seccion HISTORIA */
+
+  /* Animacion agrandar img */
+
+  .contenedor:hover .imgseccion3 {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  .contenedor {
+    overflow: hidden;
+  }
+
+  .historia {
+    color: black;
+  }
+  .card-historia {
+    display: flexbox;
+    text-align: center;
+  }
+  .card-body-historia {
+    margin-top: 50%;
+  }
+  .card-img-top-temporada {
+    height: 800px;
+    width: 500px;
+    align-items: center;
+  }
+  .temporadas {
+    background-image: url("/img/Portada/temporada/1.jpeg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* Seccion DESCUBRIR */
+
+  .card-img-descubrir {
+    height: 800px;
+  }
+  .contenedor:hover .card-img-descubrir {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .headerDescubrirDeskTablet {
+    background-image: url("/img/Descubrir/banner.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+@media (max-width: 743px) {
+  .card-img-top-temporada {
+    width: 200px;
+  }
+  .seccion3historia {
+    width: 345px;
+  }
+}

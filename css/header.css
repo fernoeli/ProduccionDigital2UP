@@ -1,0 +1,92 @@
+.heaader{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 100%;
+  animation: zoom-invertido 8s  alternate;
+  transform-origin: center center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+} 
+.headerIndex{
+  background-image: url(../img/bcNav.jpeg);
+}
+.headerIndexMobile{
+  background-image: url(../img/bcNav.jpeg);
+}
+.headerReparto{
+  background-image: url(../img/header-reparto.png);
+}
+.headerRepartoMobile{
+    background-image: url(../img/header-reparto.png);
+}
+.heaadermob{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  animation: fadeInOut 2s forwards;
+  transform-origin: center center;
+  margin-top: -50px;
+}
+.headerHistoria{
+    background-image: url(../img/header-historia.jpeg);
+}
+.headerHistoriaMobile{
+    background-image: url(../img/header-historia.jpeg);
+}
+.headerdescubrir{
+  background-image: url(../img/header-descubir.png);
+}
+.headerdescubrirMobile{
+  background-image: url(../img/header-descubir.png);
+}
+nav{
+  margin-top: 50px;
+}
+.navIndexMobile{
+  background-color: rgba(255, 255, 255, 0) !important;
+  font-family: 'Vogue';
+}
+
+.navbar-brand { font-family: Yellowed ;}
+
+
+.navLinksIndex{
+  margin: 0px 30px;
+
+}
+@keyframes zoom-invertido {
+  0% {
+    transform: scale(1.2);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) { 
+
+  .heaader{
+    display: none !important;
+  }
+  .heaadermob{
+    display: block !important;
+  }   
+}
+@media (min-width: 769px) { 
+
+  .heaader{
+    display: flex !important;
+  }
+  .heaadermob{
+    display: none !important;
+  }
+
+}

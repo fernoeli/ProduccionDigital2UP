@@ -1,0 +1,115 @@
+.reparto-main_container4-t1{
+    text-decoration: underline; font-size: 18px;
+    text-decoration:none;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+        
+    }
+    h5:hover, a:focus {
+        background-size: 20% 2px;
+        color:
+    }
+
+h5.reparto-main_container4-t2{
+    text-decoration: underline;
+}
+
+@media (max-width: 743px) {
+
+    .reparto-main_container1-img1{
+        width: 300px;
+    }
+
+    .reparto-main_container1-container1-t1{
+        width: 300px;
+        text-align: center;
+        margin: 10px;
+        padding: 5px;
+    }
+    .reparto-main_container1-container1-t2{
+        width: 300px;
+        text-align: center;
+        margin: 0px;
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .reparto-main_container1-container1-t3{
+        width: 300px;
+        text-align: center;
+        margin: 10px;
+        padding: 5px;
+    }
+    .reparto-main_container1-container1-p1{
+        width: 300px;
+        text-align: center;
+        margin: 0px;
+    }
+    .reparto-main_container1-container1-p2{
+        width: 300px;
+        margin: 0px;
+        text-align: center;
+    }
+    .reparto-main_container3-t1{
+        text-align: center;
+        margin: 1em;
+        font-size: 18px;
+    
+    }
+    .reparto-main_container4-t1{
+        text-align: center;
+        margin: 1em;
+        font-size: 14px;
+    }
+    .reparto-main_container2-t1{
+        text-align: center;
+        margin: 1em;
+        font-size: 18px;
+        padding: 5px;
+    }
+    .textCard-reparto{
+        color: #907A62;
+        font-size: 8px;
+        text-align: center;
+
+    }
+   
+
+@media (min-width: 744px) {
+    .reparto-main_container1-img1{
+        width: 500px;
+    }
+    .reparto-main_container1-container1-p1{
+        width: 100%;
+        
+    }
+
+
+    .reparto-main_container1-container1-t3{
+        text-align: center;
+        margin: 0px;
+        padding: 5px;
+    }
+    .reparto-main_container1-t1{
+        margin: 50px 20px;
+    }
+    .reparto-main_container2-t1{
+        margin: 50px 20px;
+       
+    }
+    .reparto-main_container3-t1{
+        margin: 50px 20px;
+    }
+    .reparto-main_container4-t1{
+        margin: 50px 20px;
+    }
+    .textCard-reparto{
+        color:#907A62;
+        text-align: center;
+
+    }
+
+}

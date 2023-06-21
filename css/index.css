@@ -1,0 +1,36 @@
+.cardIndeximg{
+    opacity: 0.72;
+}
+.cardIndeximg:hover{
+    opacity: 1;
+}
+.indexSeccion3Img{
+    transition: transform 1s ease;
+}
+
+.indexSeccion3Img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) { 
+
+.h3 {text-align: center;
+    }
+p.textForum { text-align: justify;}
+
+.imgseccion1 { 
+    width: 400px;
+    height: 250px;
+}
+
+.indexSeccion3Img{
+        width: 400px;
+        height: 250px;
+    }
+
+   
+
+    
+
+}
